@@ -353,6 +353,15 @@
         var employmentStatus = document.getElementById('employment_status').value;
         var partTimeForm = document.getElementById('partTimeForm');
         var regularForm = document.getElementById('regularForm');
+
+        if (employmentStatus === 'Part-Time') {
+        partTimeForm.style.display = 'block';
+        regularForm.style.display = 'none';
+    } else if (employmentStatus === 'Regular') {
+        partTimeForm.style.display = 'none';
+        regularForm.style.display = 'block';
+    }
+    
     }
 
     function calculateAge() {
