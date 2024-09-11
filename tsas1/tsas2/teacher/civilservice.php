@@ -45,7 +45,7 @@ include('includes/dbconnection.php');
                         <div class="col-lg-12">
                             <div class="card alert">
                                 <div class="card-header">
-                                    <h4>Civil Service Eligibility</h4>
+                                    <h4>CIVIL SERVICE ELIGIBILITY</h4>
              
                                 </div>
                                 <div class="bootstrap-data-table-panel">

@@ -234,6 +234,23 @@
             </div>
         </div>
 
+    </form>
+</div>
+
+<div class="form-container">
+    <div class="form-header">
+        <h2>Faculty Registration Form</h2>
+    </div>
+
+    <form id="facultyForm">
+        <div class="form-group">
+            <label for="employment_status" class="required">Employment Status</label>
+            <select id="employment_status" name="employment_status" required onchange="toggleForm()">
+                <option value="Regular">Regular</option>
+                <option value="Part-Time">Part-Time</option>
+            </select>
+        </div>
+
         <div id="regularForm">
             <p>This is a regular employee. Please proceed to update your details in the personal information system.</p>
 
@@ -348,6 +365,7 @@
     </form>
 </div>
 
+
 <script>
     function toggleForm() {
         var employmentStatus = document.getElementById('employment_status').value;
@@ -361,7 +379,7 @@
         partTimeForm.style.display = 'none';
         regularForm.style.display = 'block';
     }
-    
+
     }
 
     function calculateAge() {

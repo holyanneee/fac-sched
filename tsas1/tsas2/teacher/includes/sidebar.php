@@ -11,7 +11,7 @@
                     <li><a href="educback.php" ><i class="ti-user"></i> Educational Background </span></a></li>
                     <li><a href="civilservice.php" ><i class="ti-user"></i> Civil Service Eligibility</span></a></li>
                     <li><a href="workexp.php" ><i class="ti-user"></i> Work Experience</span></a></li>
-                    <li><a href="sched.php"><i class="ti-files"></i>Class Schedule</a></li>
+                    <li><a href="volwork.php"><i class="ti-files"></i>Voluntary Work</a></li>
                     <li><a href="#"><i class="ti-files"></i>Faculty Load</a>
                     <li><a class="sidebar-sub-toggle"><i class="ti-user"></i>Records<span class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>

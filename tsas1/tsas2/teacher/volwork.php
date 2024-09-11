@@ -45,17 +45,20 @@ include('includes/dbconnection.php');
                         <div class="col-lg-12">
                             <div class="card alert">
                                 <div class="card-header">
-                                    <h4>WORK EXPERIENCE </h4>
+                                    <h4>VOLUNTARY WORK OR INVOLVEMENT IN CIVIC / NON-GOVERNMENT / PEOPLE / VOLUNTARY ORGANIZATION/S</h4>
+             
                                 </div>
                                 <div class="bootstrap-data-table-panel">
                                     <div class="table-responsive">
                                         <table  class="table table-striped table-bordered">
                                             <thead>
                                                 <tr>
-                                                    <th>Position Title</th>
-                                                    <th>Company Name</th>
-                                                    <th>Inclusive Date</th>
-                                                    <th>Employment Status</th>
+                                                    <th>Name of the Organization</th>
+                                                    <th>Address</th>
+                                                    <th>Inclusive Dates</th>
+                                                    <th>Number of Hours</th>
+                                                    <th>Position</th>
+                                                
                                                 </tr>
                                             </thead>
                                             <tbody>
